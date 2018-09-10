@@ -1,0 +1,13 @@
+/* Background topo*/
+.bg-nav{
+	background-color: #02054d;
+}
+
+.nav-link:hover{
+	color: #02054d;
+	background-color: #9296d9;
+	transition: all .50s ease-in-out;
+    -moz-transition: all .50s ease-in-out;
+    -webkit-transition: all .50s ease-in-out;
+    -o-transition: all .50s ease-in-out;
+}
