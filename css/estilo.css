@@ -3,11 +3,20 @@
 	background-color: #02054d;
 }
 
+/* Efeito de posicionamento de mouse sobre os links */
 .nav-link:hover{
-	color: #02054d;
 	background-color: #9296d9;
 	transition: all .50s ease-in-out;
     -moz-transition: all .50s ease-in-out;
     -webkit-transition: all .50s ease-in-out;
     -o-transition: all .50s ease-in-out;
 }
+
+/* Seção Quem sou eu - Background*/
+.bg-quemsou{
+	background: linear-gradient(to right, #D8D8D8, #2E2E2E);
+}
+
+/*.padding-card{
+	padding: 2px;
+}*/
