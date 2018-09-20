@@ -12,6 +12,14 @@
     -o-transition: all .50s ease-in-out;
 }
 
+
+.bg-wallpaper{
+	background: url(../img/wallpaper.jpg) fixed;
+	position: relative;
+	opacity: 0.5;
+}
+
+
 /* Seção Quem sou eu - Background*/
 .bg-quemsou{
 	background: linear-gradient(to right, #D8D8D8, #2E2E2E);
