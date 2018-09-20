@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Thiago Monteiro da Silva</title>
@@ -8,6 +9,9 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<!-- CSS Personalizado -->
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<!-- Fonte Awesome para ícones -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
 </head>
 <body>
 
@@ -40,7 +44,7 @@
 							<a href="#formacao" class="nav-link text-light font-weight-bold text-uppercase scroll-page">Formação</a>
 						</li>
 						<li class="nav-item">
-							<a href="#experiencia" class="nav-link text-light font-weight-bold text-uppercase scroll-page">Experiência</a>
+							<a href="#objetivo" class="nav-link text-light font-weight-bold text-uppercase scroll-page">Objetivo</a>
 						</li>
 						<li class="nav-item">
 							<a href="#contato" class="nav-link text-light font-weight-bold text-uppercase scroll-page">Contato</a>
@@ -72,22 +76,53 @@
 	<!-- Seção Competências -->
 	<div id="competencias" class="container-fluid">
 		<div class="py-2">
-			<section class="container">
-				<div class="row py-4">
-					<div class="col-md-8">
-						<h2 class="text-secondary py-4 text-center">Competências</h2>
-						<ul class="list-group list-group-flush">
-							<li class="list-group-item">Trabalho em equipe</li>
-							<li class="list-group-item">Determinação</li>
-							<li class="list-group-item">Desejo de aprender</li>
-							<li class="list-group-item">Busca por inovações</li>
-						</ul>				
-					</div>	
-					<div class="col-md-4 text-center">
-						<img src="img/competencias.jpg" class="img-fluid rounded-circle" width="400" height="400">
-					</div>				
-				</div>
-			</section>
+			
+			<div class="py-4">
+				<h2 class="text-secondary py-4 text-center">Competências</h2>
+				<div id="carouselCompetencias" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselCompetencias" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselCompetencias" data-slide-to="1"></li>
+						<li data-target="#carouselCompetencias" data-slide-to="2"></li>
+						<li data-target="#carouselCompetencias" data-slide-to="3"></li>
+					</ol>
+					<div class="carousel-inner text">
+						<div class="carousel-item active">
+							<img class="d-block w-80 img-fluid" src="img/trabalho-em-equipe.jpg" alt="Primeiro Slide">
+							<div class="carousel-caption">
+								<p class="h5">Trabalho em Equipe</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-80 img-fluid" src="img/determinacao.jpg" alt="Segundo slide">
+							<div class="carousel-caption">
+								<p class="h5">Determinação</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-80 img-fluid" src="img/aprender.jpg" alt="Terceiro slide">
+							<div class="carousel-caption">
+								<p class="h5">Desejo de Aprender</p>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<img class="d-block w-80 img-fluid" src="img/solucao.jpg" alt="Quarto slide">
+							<div class="carousel-caption">
+								<p class="h5">Busca por Soluções</p>
+							</div>
+						</div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselCompetencias" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Anterior</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselCompetencias" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Próximo</span>
+					</a>
+				</div>		
+			</div>
+
 		</div>
 	</div>
 
@@ -142,10 +177,10 @@
 
 	<!-- Seção Formação -->
 	<div id="formacao" class="container-fluid">
-		<div class="py-2">			
+		<div class="py-4">			
 			<div class="col-md-12">
 				<h2 class="text-secondary text-center mb-4">Formação Educacional e Acadêmica</h2>
-				<div class="row my-2">		
+				<div class="row my-4">		
 					<div class="card mx-auto my-2" style="width: 18rem;">
 						<a href="https://www.unifran.edu.br/">
 							<img class="card-img-top text-center img-fluid" src="img/unifran.png">
@@ -179,10 +214,65 @@
 		</div>			
 	</div>
 
-	<!-- Arquivos para os scripts -->
-	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/waypoints.min.js"></script>
+	<!-- Seção Objetivo -->
+	<div id="objetivo" class="container-fluid bg-objetivo">
+		<div class="py-2">
+			<section class="container">
+				<h2 class="text-dark mt-2 text-center">Objetivo</h2>
+				<div class="row py-4">
+					<div class="col-md-12">
+						<p class="align-right py-4 text-dark text-center">Ser um desenvolvedor de grande importância no mercado de trabalho, ter a confiança e satisfação dos clientes, ser reconhecido por entregar projetos com qualidade e agilidade.</p>
+					</div>				
+				</div>
+			</section>
+		</div>
+	</div>
 
-</body>
-</html>
+	<!-- Rodapé da pagína - Contato -->
+	<footer id="contato" class="container-fluid bg-rodape py-4">
+		<div class="container">
+			<div class="row">
+				<!-- Col com contatos -->
+				<div class="col-md-4 my-2">
+					<h3 class="text-white">Entre em contato</h3>
+					<p class="text-white font-weight-bold my-1"><a href="https://www.instagram.com/thiago.monteiro.714/" class="text-white"><i class="fab fa-instagram"></i> thiago.monteiro.714</a></p>
+					<p class="text-white font-weight-bold my-1"><a href="https://www.linkedin.com/in/thiago-monteiro-da-silva-419b6aa5/" class="text-white"><i class="fab fa-linkedin"></i> Thiago Monteiro da Silva</a></p>
+					<p class="text-white font-weight-bold my-1"><i class="fab fa-whatsapp"></i> (16) 992459326</p>
+					<p class="text-white font-weight-bold my-1"><a href="mailto:thiagom.silva195@gmail.com" class="text-white"><i class="far fa-envelope"></i> thiagom.silva195@gmail.com</a></p>
+					
+						<!-- <ul class="text-white">
+							<li><a href="https://www.instagram.com/thiago.monteiro.714/" class="text-white"><i class="fab fa-instagram"></i> thiago.monteiro.714</a></li>
+						</ul> -->
+					</div>
+					<div class="col-md-4 my-2">
+						<h3 class="text-white">Visite meu portfólio</h3>
+						<p class="text-white font-weight-bold my-1"><a href="https://github.com/thiagomonteirodasilva" class="text-white"><i class="fab fa-github"></i> thiagomonteirodasilva</a></p>
+					</div>
+					<div class="col-md-4 my-2">
+						<img src="img/logo.png" style="width: 200px; height: 200px;">
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<!-- Arquivos para os scripts -->
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/waypoints.min.js"></script>
+		<script type="text/javascript">
+			(function($){
+				"use strict";
+
+				var $doc = $('html,body');
+				$('.scroll-page').click(function(){
+					$doc.animate({
+						scrollTop: $($.attr(this,'href')).offset().top
+					},500);
+					return false;
+				});
+
+			})(jQuery);
+		</script>
+
+	</body>
+	</html>

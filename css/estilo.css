@@ -17,6 +17,40 @@
 	background: linear-gradient(to right, #D8D8D8, #2E2E2E);
 }
 
-/*.padding-card{
-	padding: 2px;
+/* Para centralizar o carousel*/
+.carousel-inner img {
+  margin: auto;
+}
+
+.carousel-control-prev{
+	left: 10%;
+}
+
+.carousel-control-next{
+	right: 10%;
+}
+
+/* Background seção Objetivo*/
+.bg-objetivo {
+	background-color: #00ffee;
+}
+
+#objetivo p{
+	font-size: 20px;
+}
+
+.bg-rodape{
+	background-color: #02054d;
+}
+
+/*footer i{
+	color: #fff;
 }*/
+
+footer ul {
+     list-style-type:none
+ }
+
+ footer a:hover{
+ 	text-decoration: none;
+ }
